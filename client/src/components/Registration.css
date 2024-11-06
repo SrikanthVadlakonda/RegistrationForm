@@ -1,0 +1,53 @@
+/* Center the form on the page */
+.registration-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-in-out; /* Apply fade-in animation */
+  }
+  
+  .registration-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style input fields and the button */
+  .registration-form input,
+  .registration-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .registration-form button {
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add hover effect */
+  }
+  
+  .registration-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
